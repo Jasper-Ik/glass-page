@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Macondo&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@200&family=Odibee+Sans&family=Outfit:wght@100;300;500;700;800&family=Rubik+Moonrocks&display=swap');
+body {
+   width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./search\ background.jpg');
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Outfit', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img.btw {
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*background: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9));*/
+    border-radius: 30px;
+    border: 1px solid #808080;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0px 0px 10px #777777; 
+    backdrop-filter: blur(4px);   
+}
+
+h2 {
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
+P {
+    line-height: 1.7rem;
+    font-weight: 400;
+    color: #ffd700;
+}
+
+a {
+    display: inline-block;
+    margin: 15px auto 30px auto;
+    padding: 14px;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid #808080;
+    height: 25px;
+    width: fit-content;
+}
+img.cta {
+    height: 20px;
+    flex: 1;
+}
+.fa-twitter {
+    color: #0000ff;
+    font-size: 30px;
+}
+.fa-whatsapp {
+    color: #008000;
+    font-size: 30px;
+}
+.fa-facebook {
+    color: #0000ff;
+    font-size: 30px;
+}
+.fa-instagram:hover,:active {
+    color: #808080;
+    font-size: 30px;
+}
+
+.fa-twitter:hover,:active {
+    color: #808080;
+    font-size: 30px;
+}
+.fa-whatsapp:hover,:active {
+    color: #808080;
+    font-size: 30px;
+}
+.fa-facebook:hover,:active {
+    color: #808080;
+    font-size: 30px;
+}
+.fa-instagram {
+    color: #dc143c;
+    font-size: 30px;
+}
+
